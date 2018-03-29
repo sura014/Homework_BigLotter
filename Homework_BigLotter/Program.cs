@@ -8,6 +8,7 @@ namespace Homework_BigLotter
 {
     class Program
     {
+        
         struct User_Bet
         {
             public int[] each_bet;
@@ -16,11 +17,14 @@ namespace Homework_BigLotter
         static void Main(string[] args)
         {
             int Bet_count;
+            int cash = 1000;
             while (true)
             {
                 string input;
-                Console.Write("請輸入下注數量(介於1-5) : ");
-                Bet_count = CheckBet();
+                Console.WriteLine("請輸入下注數量(每張彩票100元) : ");
+                Bet_count = CheckBet(cash);
+                cash -= Bet_count * 100;
+                Console.WriteLine($"購買{Bet_count}張彩券,消費{Bet_count * 100}元,現金餘{cash}元");
                 User_Bet[] user_bet_list = new User_Bet[Bet_count];
                 for(int i = 0; i < Bet_count; i++)
                 {
@@ -65,14 +69,14 @@ namespace Homework_BigLotter
 
         
         //使用者輸入下注數量and防呆
-        public static int CheckBet()
+        public static int CheckBet(int cash)
         {
             int Bet = 1;
             string input;
             while (true)
             {
                 input = Console.ReadLine();
-                if (int.TryParse(input, out Bet) && Bet >= 1 && Bet <= 5)
+                if (int.TryParse(input, out Bet) && Bet >= 1 && Bet <= cash/100)
                     break;
             }            
             return Bet;
