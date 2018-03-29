@@ -1,0 +1,7 @@
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\bin\Debug\Homework_BigLotter.exe.config
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\bin\Debug\Homework_BigLotter.exe
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\bin\Debug\Homework_BigLotter.pdb
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\obj\Debug\Homework_BigLotter.csprojResolveAssemblyReference.cache
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\obj\Debug\Homework_BigLotter.csproj.CoreCompileInputs.cache
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\obj\Debug\Homework_BigLotter.exe
+C:\Users\chester\Documents\CMONEY_HOMEWORK\Homework_BigLotter\Homework_BigLotter\obj\Debug\Homework_BigLotter.pdb
